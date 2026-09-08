@@ -328,14 +328,11 @@ main {
 }
 
 .lista-produtos{
-    width: 90%;
-    max-width: 1150px;
-    margin: 50px auto;
+    padding: 70px 0;
     display: grid;
     grid-template-columns: repeat(5, 300px);
     justify-content: center;
     gap: 25px;
-    margin-bottom: 10px;
 }
 
 .card-produto{
@@ -511,16 +508,19 @@ main {
     font-size: 16px;
 }
 
+.depoimentos{
+    margin-top: -60px;
+}
+
 .lista-depoimentos{
-    width: 90%;
-    max-width: 1150px;
-    margin: 50px auto;
+    padding: 50px 0 50px 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
 }
 
-.card-depoimentos {
+.card-depoimentos{
+    width: 500px;
     padding: 28px;
     background-color: white;
     border: 1px solid rgba(1, 45, 117, 0.12);
