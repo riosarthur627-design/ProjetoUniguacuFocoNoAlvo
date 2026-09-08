@@ -39,14 +39,9 @@ header{
 .conteudo-header{
 
     display: flex;
-    flex-direction: row;
-    align-items: center; 
+    align-items: center;
     justify-content: space-between;
-    width: 90%;
-    max-width: 1150px;
-    margin: 0 auto;
-    padding: 10px 0;
-    transform: translateX(-100px);
+    padding: 10px 20px 10px 40px;
     
 }
 
@@ -76,6 +71,7 @@ header{
     display: flex;
     align-items: center;
     gap: 20px;
+    padding: 0 200px 0 0;
 }   
 
 .links-navegacao-header a{
@@ -121,15 +117,10 @@ main {
 }
 
 .conteudo-main{
-    width: 90%;
-    max-width: 1150px;
-    margin: 0 auto;
-    padding: 80px 0;
+    padding: 80px 0 0 50px;
     display: flex;
-    align-items: flex-start;
     justify-content: center;
-    gap: 70px;
-    margin-left: 400px;
+    gap: 50px;
     margin-top: 80px;
   
 }
@@ -249,13 +240,11 @@ main {
 }
 
 .vantagens{
-    width: 90%;
-    max-width: 1150px;
-    margin: 0 auto;
+    padding: 0 0 0 50px;
+    justify-content: center;
     display: flex;
     flex-direction: row;
     gap: 80px;
-    margin-left: 450px;
     margin-bottom: 50px;
 }
 
