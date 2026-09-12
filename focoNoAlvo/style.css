@@ -6,24 +6,17 @@
 
 html{
     width: 100%;
-    overflow-x: hidden;
+    overflow-x: clip;
+    scroll-behavior: smooth;
 }
 
-body {
+body{
     min-height: 100vh;
-
     background-color: #EBF1FF;
-
-    background-image: linear-gradient(
-        to bottom,
-        #EBF1FF 0%,
-        #F3F6FF 40%,
-        #FFFFFF 100%
-    );
-
+    background-image: linear-gradient(to bottom, #EBF1FF 0%, #F3F6FF 40%, #FFFFFF 100%);
     background-repeat: no-repeat;
     width: 100%;
-    overflow-x: hidden;
+    overflow-x: clip;
 }
 
 header{
@@ -109,7 +102,10 @@ header{
     box-shadow: 0 0 6px var(--azul-claro);
     font-family: 'Poppins', 'Inter', sans-serif;
     transition: 0.3s;
+    text-decoration: none;
+    text-align: center;
 }
+
 
 .fale-conosco:hover{
     transform: translateY(-4px);
@@ -181,6 +177,11 @@ main {
     gap: 35px;
     align-items: center;
     transform: translateY(30px);
+}
+
+.botoes-text-conteudo-main a{
+    text-decoration: none;
+    text-align: center;
 }
 
 .ver-drones{
@@ -309,6 +310,7 @@ main {
 .subtitulo-nossa-linha{
     display: block;
     margin-bottom: 12px;
+    margin-top: 45px;
     color: #E6A621;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
